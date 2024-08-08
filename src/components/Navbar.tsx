@@ -21,10 +21,10 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             to="about"
-            className="group flex w-fit cursor-pointer items-center gap-2"
+            className="group flex w-fit cursor-pointer items-center gap-2 py-2"
           >
-            <div className="h-0.5 w-5 flex-grow bg-gray-400 duration-300 group-hover:w-10 group-hover:bg-white" />
-            <p className="text-sm tracking-widest text-gray-400 duration-300 group-hover:text-white">
+            <div className="h-0.5 w-10 flex-grow bg-gray-400 duration-300 group-hover:w-20 group-hover:bg-white" />
+            <p className="w-full text-sm tracking-widest text-gray-400 duration-300 group-hover:text-white">
               ABOUT
             </p>
           </Link>
@@ -32,10 +32,10 @@ const Navbar = () => {
             to="project"
             spy={true}
             smooth={true}
-            className="group flex w-fit cursor-pointer items-center gap-2"
+            className="group flex w-fit cursor-pointer items-center gap-2 py-2"
           >
-            <div className="h-0.5 w-5 flex-grow bg-gray-400 duration-300 group-hover:w-10 group-hover:bg-white" />
-            <p className="text-sm tracking-widest text-gray-400 duration-300 group-hover:text-white">
+            <div className="h-0.5 w-10 flex-grow bg-gray-400 duration-300 group-hover:w-20 group-hover:bg-white" />
+            <p className="w-full text-sm tracking-widest text-gray-400 duration-300 group-hover:text-white">
               PROJECT
             </p>
           </Link>
@@ -43,10 +43,10 @@ const Navbar = () => {
             to="experience"
             spy={true}
             smooth={true}
-            className="group flex w-fit cursor-pointer items-center gap-2"
+            className="group flex w-fit cursor-pointer items-center gap-2 py-2"
           >
-            <div className="h-0.5 w-5 flex-grow bg-gray-400 duration-300 group-hover:w-10 group-hover:bg-white" />
-            <p className="text-sm tracking-widest text-gray-400 duration-300 group-hover:text-white">
+            <div className="h-0.5 w-10 flex-grow bg-gray-400 duration-300 group-hover:w-20 group-hover:bg-white" />
+            <p className="w-full text-sm tracking-widest text-gray-400 duration-300 group-hover:text-white">
               EXPERIENCE
             </p>
           </Link>
@@ -54,10 +54,10 @@ const Navbar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            className="group flex w-fit cursor-pointer items-center gap-2"
+            className="group flex w-fit cursor-pointer items-center gap-2 py-2"
           >
-            <div className="h-0.5 w-5 flex-grow bg-gray-400 duration-300 group-hover:w-10 group-hover:bg-white" />
-            <p className="text-sm tracking-widest text-gray-400 duration-300 group-hover:text-white">
+            <div className="h-0.5 w-10 flex-grow bg-gray-400 duration-300 group-hover:w-20 group-hover:bg-white" />
+            <p className="w-full text-sm tracking-widest text-gray-400 duration-300 group-hover:text-white">
               CONTACT
             </p>
           </Link>
