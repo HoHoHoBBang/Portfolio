@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="flex h-fit w-full items-center justify-center"
+      className="flex min-h-[400px] w-full items-center justify-center"
     >
       <div className="flex h-full w-[75%] flex-col items-center justify-center">
         <p className="w-full p-5 text-xl font-bold text-white">EXPERIENCE</p>
@@ -21,7 +21,8 @@ const Experience = () => {
                   디자인 공감 인테리어
                 </p>
                 <p className="text-sm tracking-widest text-gray-400">
-                  현장 관리, 고객 상담
+                  현장 관리, 고객 상담, 인테리어 프로젝트 일정 관리, 예산 관리,
+                  현장 이슈 해결 및 품질 관리
                 </p>
               </div>
             </div>
@@ -38,7 +39,8 @@ const Experience = () => {
                   에스케이패션
                 </p>
                 <p className="text-sm tracking-widest text-gray-400">
-                  원단 생산 및 관리, 시장 조사 및 분석
+                  원단 생산 및 관리, 시장 조사 및 분석, 원자재 수급 및 재고
+                  관리, 생산 공정 개선 및 품질 관리
                 </p>
               </div>
             </div>
@@ -53,7 +55,8 @@ const Experience = () => {
               <div>
                 <p className="font-bold tracking-widest text-white">신성통상</p>
                 <p className="text-sm tracking-widest text-gray-400">
-                  원단 생산 및 관리, 하청 업체 관리, 시장 조사 및 분석
+                  원단 생산 및 관리, 하청 업체 관리, 시장 조사 및 분석, 제품
+                  품질 검사 및 개선, 납품 일정 조율
                 </p>
               </div>
             </div>

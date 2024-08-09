@@ -11,21 +11,28 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex h-[300px] w-full items-center justify-center"
+      className="flex h-[400px] w-full items-center justify-center"
     >
-      <div className="flex h-full w-[75%] flex-col items-center justify-center">
+      <div className="flex h-full w-[75%] flex-col justify-center">
         <p className="w-full p-5 text-xl font-bold text-white">CONTACT</p>
-        <div className="flex flex-col p-5">
+        <div className="flex flex-col gap-3 p-5">
           <div className="flex items-center gap-3">
             <FontAwesomeIcon
               icon={faUser}
               className="flex w-10 text-2xl text-gray-400"
             />
-            <div className="flex flex-col">
-              <p className="font-bold tracking-widest text-gray-400">Notion</p>
-              <p className="text-sm tracking-widest text-gray-400">
-                Hokeun, Lee's notion
+            <div className="flex items-center gap-5">
+              <p className="w-14 font-bold tracking-widest text-gray-400">
+                Notion
               </p>
+              <a
+                href="https://kind-yellowhorn-f11.notion.site/3fd5e253e4ef46c692a940a7f69d9872"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="cursor-pointer tracking-widest text-white"
+              >
+                Hokeun, Lee's notion
+              </a>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -33,11 +40,16 @@ const Contact = () => {
               icon={faEnvelope}
               className="w-10 text-2xl text-gray-400"
             />
-            <div className="flex flex-col">
-              <p className="font-bold tracking-widest text-gray-400">Email</p>
-              <p className="text-sm tracking-widest text-gray-400">
-                gogogoidl@naver.com
+            <div className="flex items-center gap-5">
+              <p className="w-14 font-bold tracking-widest text-gray-400">
+                Email
               </p>
+              <a
+                href="mailto:gogogoidl@naver.com"
+                className="cursor-pointer tracking-widest text-white"
+              >
+                gogogoidl@naver.com
+              </a>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -45,11 +57,11 @@ const Contact = () => {
               icon={faMobileScreen}
               className="w-10 text-2xl text-gray-400"
             />
-            <div className="flex flex-col">
-              <p className="font-bold tracking-widest text-gray-400">Phone</p>
-              <p className="text-sm tracking-widest text-gray-400">
-                (+82) 10-4739-6066
+            <div className="flex items-center gap-5">
+              <p className="w-14 font-bold tracking-widest text-gray-400">
+                Phone
               </p>
+              <p className="tracking-widest text-white">(+82) 10-4739-6066</p>
             </div>
           </div>
           <div className="flex items-center gap-3">
@@ -57,11 +69,18 @@ const Contact = () => {
               icon={faComment}
               className="w-10 text-2xl text-gray-400"
             />
-            <div className="flex flex-col">
-              <p className="font-bold tracking-widest text-gray-400">Kakao</p>
-              <p className="text-sm tracking-widest text-gray-400">
-                Open chats
+            <div className="flex items-center gap-5">
+              <p className="w-14 font-bold tracking-widest text-gray-400">
+                Kakao
               </p>
+              <a
+                href="https://open.kakao.com/o/sedVWRHg"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="cursor-pointer tracking-widest text-white"
+              >
+                Open chats
+              </a>
             </div>
           </div>
         </div>
