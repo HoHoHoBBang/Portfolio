@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import About from "./pages/About";
 import Project from "./pages/Project";
 import Experience from "./pages/Experience";
@@ -10,21 +10,6 @@ interface Props {
 }
 
 const App = () => {
-  const [cursorX, setCursorX] = useState(0);
-  const [cursorY, setCursorY] = useState(0);
-
-  useEffect(() => {
-    const mouseMove = (e: MouseEvent) => {
-      setCursorX(e.clientX);
-      setCursorY(e.clientY);
-    };
-    window.addEventListener("mousemove", mouseMove);
-
-    return () => {
-      window.removeEventListener("mousemove", mouseMove);
-    };
-  }, []);
-
   const Nav = ({ children }: Props) => {
     return (
       <>
@@ -33,10 +18,7 @@ const App = () => {
             <Navbar />
           </div>
           <div className="flex-1">{children}</div>
-          <div
-            className="pointer-events-none fixed flex h-[600px] w-[600px] items-center justify-center rounded-full bg-blue-900/10 blur-3xl"
-            style={{ left: cursorX - 300 + "px", top: cursorY - 300 + "px" }}
-          />
+          <div className="pointer-events-none fixed flex h-[600px] w-[600px] items-center justify-center rounded-full bg-blue-900/10 blur-3xl" />
         </div>
       </>
     );

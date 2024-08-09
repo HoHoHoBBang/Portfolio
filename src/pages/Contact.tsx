@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex h-[400px] w-full items-center justify-center"
+      className="flex h-[500px] w-full items-center justify-center"
     >
       <div className="flex h-full w-[75%] flex-col justify-center">
         <p className="w-full p-5 text-xl font-bold text-white">CONTACT</p>
