@@ -6,7 +6,7 @@ const Experience = () => {
       id="experience"
       className="flex min-h-[600px] w-full items-center justify-center"
     >
-      <div className="flex h-full w-[75%] flex-col items-center justify-center">
+      <div className="flex h-full w-[75%] flex-col items-center justify-center max-md:w-full">
         <p className="w-full p-5 text-xl font-bold text-white">EXPERIENCE</p>
         <ul className="w-full">
           <li className="flex min-h-32 gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg">

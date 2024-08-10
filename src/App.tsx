@@ -13,7 +13,7 @@ const App = () => {
   const Nav = ({ children }: Props) => {
     return (
       <>
-        <div className="flex bg-gray-900">
+        <div className="flex bg-gray-900 max-lg:flex-col">
           <div className="flex-1">
             <Navbar />
           </div>

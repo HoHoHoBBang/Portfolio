@@ -8,15 +8,15 @@ const Project = () => {
       id="project"
       className="flex min-h-[600px] w-full items-center justify-center"
     >
-      <div className="flex h-full w-[75%] flex-col items-center justify-center">
+      <div className="flex h-full w-[75%] flex-col items-center justify-center max-md:w-full">
         <p className="w-full p-5 text-xl font-bold text-white">PROJECT</p>
         <ul className="w-full">
-          <li className="flex min-h-32 cursor-pointer gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg">
-            <div className="flex flex-1 flex-col items-center justify-between">
+          <li className="flex min-h-32 cursor-pointer gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg max-sm:flex-col">
+            <div className="flex flex-1 flex-col items-center justify-between max-sm:gap-5">
               <img
                 src={portfolioImage}
                 alt=""
-                className="h-24 w-full rounded-lg border border-gray-500 object-cover"
+                className="h-20 w-32 rounded-lg border border-gray-500 object-cover max-sm:h-full max-sm:w-full"
               />
               <a
                 href="https://github.com/HoHoHoBBang/Portfolio"
@@ -33,7 +33,8 @@ const Project = () => {
                   Portfolio web
                 </p>
                 <p className="min-h-20 text-sm tracking-widest text-gray-400">
-                  개인 포트폴리오 사이트 입니다.
+                  React.js를 사용하여 컴포넌트 기반의 사용자 인터페이스를 구현
+                  <br /> TailwindCSS를 통해 반응형 디자인과 모던한 UI를 구현
                 </p>
               </div>
               <div className="flex gap-3">
@@ -46,12 +47,12 @@ const Project = () => {
               </div>
             </div>
           </li>
-          <li className="flex min-h-32 cursor-pointer gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg">
-            <div className="flex flex-1 flex-col items-center justify-between">
+          <li className="flex min-h-32 cursor-pointer gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg max-sm:flex-col">
+            <div className="flex flex-1 flex-col items-center justify-between max-sm:gap-5">
               <img
                 src={socialwebImage}
                 alt=""
-                className="h-24 w-full rounded-lg border border-gray-500 object-cover"
+                className="h-20 w-32 rounded-lg border border-gray-500 object-cover max-sm:h-full max-sm:w-full"
               />
               <div className="flex gap-2">
                 <a
@@ -78,8 +79,11 @@ const Project = () => {
                   Social media web
                 </p>
                 <p className="min-h-20 text-sm tracking-widest text-gray-400">
-                  개인 프로젝트 소셜 미디어사이트 입니다. <br />
-                  로그인, 포스트 업로드, 1 대 1 대화 등 기능을 추가 하였습니다.
+                  React.js를 사용하여 사용자 인터페이스를 설계 <br /> Firebase를
+                  이용해 실시간 데이터베이스와 사용자 인증을 구현 <br />
+                  게시글 작성, 댓글, 좋아요 등 다양한 소셜 미디어 기능을 구현{" "}
+                  <br />
+                  TailwindCSS를 활용해 반응형 디자인을 구현
                 </p>
               </div>
               <div className="flex gap-3">

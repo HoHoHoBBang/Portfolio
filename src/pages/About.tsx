@@ -6,7 +6,7 @@ const About = () => {
       id="about"
       className="flex h-[500px] w-full items-center justify-center"
     >
-      <div className="flex h-full w-[75%] flex-col items-center justify-center">
+      <div className="flex h-full w-[75%] flex-col items-center justify-center max-md:w-full">
         <p className="w-full p-5 text-xl font-bold text-white">ABOUT</p>
         <p className="p-5 text-sm tracking-widest text-gray-400">
           비전공자이지만 <span className="text-white">다양한 직무 경험</span>을
