@@ -9,7 +9,9 @@ const Project = () => {
       className="flex min-h-[600px] w-full items-center justify-center"
     >
       <div className="flex h-full w-[75%] flex-col items-center justify-center max-md:w-full">
-        <p className="w-full p-5 text-xl font-bold text-white">PROJECT</p>
+        <p className="top-0 w-full bg-gray-900/80 p-5 text-xl font-bold text-white max-lg:sticky">
+          PROJECT
+        </p>
         <ul className="w-full">
           <li className="flex min-h-32 cursor-pointer gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg max-sm:flex-col">
             <div className="flex flex-1 flex-col items-center justify-between max-sm:gap-5">

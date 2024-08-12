@@ -13,7 +13,7 @@ const Contact = () => {
       id="contact"
       className="flex h-[500px] w-full items-center justify-center"
     >
-      <div className="flex h-full w-[75%] flex-col justify-center max-md:w-full">
+      <div className="flex h-full w-[75%] flex-col justify-center">
         <p className="w-full p-5 text-xl font-bold text-white">CONTACT</p>
         <div className="flex flex-col gap-3 p-5">
           <div className="flex items-center gap-3">

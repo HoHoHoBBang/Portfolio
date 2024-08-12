@@ -7,7 +7,9 @@ const Experience = () => {
       className="flex min-h-[600px] w-full items-center justify-center"
     >
       <div className="flex h-full w-[75%] flex-col items-center justify-center max-md:w-full">
-        <p className="w-full p-5 text-xl font-bold text-white">EXPERIENCE</p>
+        <p className="top-0 w-full bg-gray-900/80 p-5 text-xl font-bold text-white max-lg:sticky">
+          EXPERIENCE
+        </p>
         <ul className="w-full">
           <li className="flex min-h-32 gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg">
             <div className="flex-1">
