@@ -12,7 +12,7 @@ const About = () => {
         </p>
         <p className="p-5 text-sm tracking-widest text-gray-400">
           비전공자이지만 <span className="text-white">다양한 직무 경험</span>을
-          통해 습득한 <span className="text-white">문제 해결 능력</span>과
+          통해 습득한 <span className="text-white">문제 해결 능력</span>과{" "}
           <span className="text-white">커뮤니케이션 스킬</span>을 바탕으로,
           개발자로서 새로운 <span className="text-white">도전</span>을 준비하고
           있습니다. <br />
