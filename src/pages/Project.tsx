@@ -1,6 +1,7 @@
 import React from "react";
 import portfolioImage from "../assets/images/portfolio.png";
 import socialwebImage from "../assets/images/socialweb.png";
+import rouletteImage from "../assets/images/roulette.png";
 
 const Project = () => {
   return (
@@ -97,6 +98,57 @@ const Project = () => {
                 </p>
                 <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
                   Firebase
+                </p>
+              </div>
+            </div>
+          </li>
+          <li className="flex min-h-32 cursor-pointer gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg max-sm:flex-col">
+            <div className="flex flex-1 flex-col items-center justify-between max-sm:gap-5">
+              <img
+                src={rouletteImage}
+                alt=""
+                className="h-20 w-32 rounded-lg border border-gray-500 object-cover max-sm:h-full max-sm:w-full"
+              />
+              <div className="flex gap-2">
+                <a
+                  href="https://github.com/HoHoHoBBang/Roulette-project"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400 duration-300 hover:text-white"
+                >
+                  Github
+                </a>
+                <a
+                  href="https://roulette-55839.web.app/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400 duration-300 hover:text-white"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+            <div className="flex flex-[2.5] flex-col gap-3">
+              <div>
+                <p className="font-bold tracking-widest text-white">
+                  Roulette Game
+                </p>
+                <p className="min-h-20 text-sm tracking-widest text-gray-400">
+                  React.js를 사용하여 사용자 인터페이스를 설계 <br />
+                  룰렛 회전 에니메이션 및 베팅 프로세스 구현
+                  <br />
+                  TailwindCSS를 활용해 반응형 디자인을 구현
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
+                  React.JS
+                </p>
+                <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
+                  Vite
+                </p>
+                <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
+                  TailwindCSS
                 </p>
               </div>
             </div>
