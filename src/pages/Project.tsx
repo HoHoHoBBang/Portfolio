@@ -2,6 +2,7 @@ import React from "react";
 import portfolioImage from "../assets/images/portfolio.png";
 import socialwebImage from "../assets/images/socialweb.png";
 import rouletteImage from "../assets/images/roulette.png";
+import ecommerceImage from "../assets/images/ecommerce.png";
 
 const Project = () => {
   return (
@@ -21,14 +22,24 @@ const Project = () => {
                 alt=""
                 className="h-20 w-32 rounded-lg border border-gray-500 object-cover max-sm:h-full max-sm:w-full"
               />
-              <a
-                href="https://github.com/HoHoHoBBang/Portfolio"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400 duration-300 hover:text-white"
-              >
-                Github
-              </a>
+              <div className="flex gap-2">
+                <a
+                  href="https://github.com/HoHoHoBBang/Portfolio"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400 duration-300 hover:text-white"
+                >
+                  Github
+                </a>
+                <a
+                  href="https://portfolio-aa8d4.web.app/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400 duration-300 hover:text-white"
+                >
+                  Demo
+                </a>
+              </div>
             </div>
             <div className="flex flex-[2.5] flex-col gap-3">
               <div>
@@ -43,6 +54,55 @@ const Project = () => {
               <div className="flex gap-3">
                 <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
                   React.JS
+                </p>
+                <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
+                  TailwindCSS
+                </p>
+              </div>
+            </div>
+          </li>
+          <li className="flex min-h-32 cursor-pointer gap-2 rounded-lg p-5 duration-200 hover:bg-gray-800 hover:shadow-lg max-sm:flex-col">
+            <div className="flex flex-1 flex-col items-center justify-between max-sm:gap-5">
+              <img
+                src={ecommerceImage}
+                alt=""
+                className="h-20 w-32 rounded-lg border border-gray-500 object-cover max-sm:h-full max-sm:w-full"
+              />
+              <div className="flex gap-2">
+                <a
+                  href="https://github.com/HoHoHoBBang/Ecommerce-project"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400 duration-300 hover:text-white"
+                >
+                  Github
+                </a>
+                <a
+                  href="https://ecommerce-dbc54.web.app/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400 duration-300 hover:text-white"
+                >
+                  Demo
+                </a>
+              </div>
+            </div>
+            <div className="flex flex-[2.5] flex-col gap-3">
+              <div>
+                <p className="font-bold tracking-widest text-white">
+                  Ecommerce web
+                </p>
+                <p className="min-h-20 text-sm tracking-widest text-gray-400">
+                  React.js를 사용하여 컴포넌트 기반의 사용자 인터페이스를 구현
+                  <br /> TailwindCSS를 통해 반응형 디자인과 모던한 UI를 구현
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
+                  React.JS
+                </p>
+                <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
+                  Vite
                 </p>
                 <p className="rounded-full bg-gray-700 px-2 py-1 text-xs tracking-widest text-gray-400">
                   TailwindCSS
