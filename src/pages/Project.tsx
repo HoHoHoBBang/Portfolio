@@ -49,8 +49,8 @@ const Project = () => {
                   Flight Schedule app
                 </p>
                 <p className="min-h-20 text-sm tracking-widest text-gray-400">
-                  공공데이터 API를 통해 실시간 운항기 데이터 연동하여 확인할 수
-                  있는 운항기 스케쥴 앱 입니다.
+                  공공데이터 API를 통해 실시간 항공기 데이터 연동하여 확인할 수
+                  있는 항공기 스케쥴 앱 입니다.
                 </p>
               </div>
               <div className="flex gap-3">
