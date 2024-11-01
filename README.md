@@ -1,8 +1,5 @@
 ---
 
-
----
-
 <p><strong>프로젝트: 포트폴리오 웹사이트</strong></p>
 <p><strong>프로젝트 개요:</strong></p>
 <ul>
